@@ -49,3 +49,14 @@ fruits = ["apple", "banana", "cherry"]
 
 #membership operator
 print("banana" in fruits)
+# XOR x ^ y Sets each bit to 1 if only one of two bits is 1
+#~x NOT
+
+#Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off	x >> 2
+
+
+
+#Shift left by pushing zeros in from the right and let the leftmost bits fall off	x << 2
+
+
+#()> ** > +X -X ~X > *  /  //  % > +  - > >> << > & > ^ > (==  !=  >  >=  <  <=  is  is not  in  not in)  > NOT> AND > OR
