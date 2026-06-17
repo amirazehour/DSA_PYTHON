@@ -9,8 +9,8 @@ why lambda?
 
 lambda built in functions :
     map() : applies a function to every item in an iterable(list)
-    filter(): 
-    sorted():
+    filter(): list(filter(lambda .....,thelist))
+    sorted():sorted(thelist,key=lambda func)
 """
 
 def myfunc(n):

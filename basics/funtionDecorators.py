@@ -15,14 +15,13 @@ print(myfunc("amira"))
 #decorrators can have arguments
 def changecases(x):#OUTER HAS ARGUMENT
    def changecase(func):#INER HAS THE FUNCTION
-    if x==1:
-        def inner(*args,**kwargs):
+      def inner(*args,**kwargs):
+         if x == 1:
             return func(*args,**kwargs).upper()
-    else:
-       def inner(*args,**kwargs):
+         else :
             return func(*args,**kwargs).lower()
        
-    return inner
+      return inner
    return changecase
 
 
@@ -70,7 +69,7 @@ def changecases(x):#OUTER HAS ARGUMENT
 
 
 
-#WE CAN HAVE MULTIPLE DECORATORS
+
 def greeting(func):
    @functools.wraps(func)
    def inner(*args,**kwargs):
