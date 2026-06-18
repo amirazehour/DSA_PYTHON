@@ -78,4 +78,7 @@ None Type:	NoneType None
 import random
 print(random.randrange(1,10))
 
-
+import modules as md
+from modules import person1
+md.greeting("amira")
+print(person1["age"])
